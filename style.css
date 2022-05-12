@@ -95,11 +95,10 @@ text-decoration: none;
      cursor: pointer;
      
 }
-#check{
+#navbarResponsive{
     position: absolute;
     top: 120px;
     margin-left: 5px;
-    display: none;
 
 }
 
@@ -158,7 +157,7 @@ text-decoration: none;
         
     }
     
-    #check:checked ~ul{
+    #navbarResponsive:checked ~ul{
         left: 0;
     }
     .logo img{
